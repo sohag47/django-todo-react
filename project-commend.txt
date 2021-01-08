@@ -1,0 +1,38 @@
+1. mkdir django-todo-react
+2. cd django-todo-react
+
+3.create virtual environment:
+> python -m venv env
+
+4. activate virtual environment:
+> env\Scripts\activate (for windows)
+> source venv/bin/activate ( for linux)
+
+5. install Django:
+> pip install Django
+
+6.create a project: 
+> django-admin startproject backend .
+> cd backend
+
+7. run project server:
+> python manage.py runserver
+
+8. create djano app:
+> python manage.py startapp todo
+
+9. database model initalise:
+> python manage.py migrate
+
+10. database model final :
+> python manage.py makemigrations todo
+
+11.create database user id, password:
+> python manage.py createsuperuser
+
+13. install django rest framework:
+> pip install djangorestframework django-cors-headers
+
+project source code tutorial link 
+// https://scotch.io/tutorials/build-a-to-do-application-using-django-and-react
+// https://github.com/Jordanirabor/django-todo-react
